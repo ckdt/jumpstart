@@ -25,12 +25,6 @@ Install the [Soil](https://github.com/roots/soil) plugin to enable additional fe
 
 Download the theme and then rename the directory to the name of your theme or website.
 
-If you don't use [Bedrock](https://github.com/roots/bedrock), you'll need to add the following to your `wp-config.php` on your development installation:
-
-```php
-define('WP_ENV', 'development');
-```
-
 ## Theme configuration
 
 Edit `lib/config.php` to enable or disable theme features and to define a Google Analytics ID.
