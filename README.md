@@ -52,3 +52,7 @@ When completed, you'll be able to run the various Grunt commands provided from t
 
 * [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
 * [register-post-type](https://gist.github.com/justintadlock/6552000)
+
+## TODO
+
+* Use [Timber](https://github.com/jarednova/timber) for templates
