@@ -48,6 +48,11 @@ When completed, you'll be able to run the various Grunt commands provided from t
 * `grunt watch` — Compile assets when file changes are made
 * `grunt build` — Create minified assets that are used on non-development environments
 
+### Installing frontend packages
+
+1. `bower install --save [package name]`.
+2. Add the path of the unminified js file to `jsFileList` in `Gruntfile.js`.
+
 ## Additional resources for common tasks
 
 * [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
