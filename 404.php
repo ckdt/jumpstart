@@ -1,6 +1,4 @@
-<?php get_header(); ?> ?>
-
-<?php while ( have_posts() ) : the_post(); ?>
+<?php get_header(); ?>
 
 <article>
 	<header>
@@ -10,8 +8,6 @@
 		<p><?php _e( 'Sorry, something went wrong.', 'jumptstart' ); ?></p>
 	</div>
 </article>
-
-<?php endwhile; ?>
 
 <?php get_sidebar(); ?>
 
