@@ -12,15 +12,6 @@ Jumpstart is a WordPress starter theme based on [Roots](https://github.com/roots
 4. Install this theme and follow instructions below.
 5. Initialize new git project.
 
-### Additional features
-
-Install the [Soil](https://github.com/roots/soil) plugin to enable additional features:
-
-* Root relative URLs
-* Nice search (`/search/query/`)
-* Cleaner output of `wp_head` and enqueued assets markup
-* Image captions use `<figure>` and `<figcaption>`
-
 ## Theme installation and configuration
 
 Download the theme and then rename the directory to the name of your theme or website.
