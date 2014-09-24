@@ -4,13 +4,24 @@
 
 Jumpstart is a WordPress starter theme based on [Roots](https://github.com/roots/roots/) and several other starter themes. It basically is a stripped down version of [Roots](https://github.com/roots/roots/) ;)
 
-## Full stack installation and configuration
+## Requirements
+1. [Apache](http://httpd.apache.org/) or [Nginx](http://nginx.net/)
+2. [PHP](http://www.php.net/) version 5.2.4 or greater
+3. [MySQL](http://www.mysql.com/) version 5.0 or greater
 
-1. Create a new [Bedrock](https://github.com/roots/bedrock) project and follow the installation instructions.
-2. Remove unwanted Bedrock features.
-3. Add plugins to composer.json
-4. Install this theme and follow instructions below.
-5. Initialize new git project.
+## Full stack installation and configuration
+1. Install [Composer](https://getcomposer.org/) globally: `curl -sS https://getcomposer.org/installer | php`
+2. Create [Bedrock](https://github.com/roots/bedrock) project:  `composer create-project roots/bedrock <path>`
+3. Create new local [MySQL](http://www.mysql.com/) database by using [MAMP](http://www.mamp.info/en/) and [phpMyAdmin](http://www.phpmyadmin.net/home_page/index.php)
+4. Configure [Bedrock](https://github.com/roots/bedrock). Edit `.env` file follow these [instructions](https://github.com/roots/bedrock#installationusage)
+5. Add [Wordpress Plugins](http://plugins.svn.wordpress.org/) to `composer.json` file by adding [wpackagist](http://wpackagist.org/) references to the `"require":` section.
+6. Run `composer update` to download the [Wordpress Plugins](http://plugins.svn.wordpress.org/)
+7. Download & Install [this theme](https://github.com/ckdt/jumpstart) to the `web/app/themes` directory
+8. Install [NodeJS](http://nodejs.org/download/) globally
+9. Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) globally `npm install -g grunt-cli bower`
+10. Go to your theme directory `cd web/app/themes/jumpstart` and run `npm install`
+11. Use available grunt commands (see below)
+12. Initialize new git project.
 
 ## Theme installation and configuration
 
