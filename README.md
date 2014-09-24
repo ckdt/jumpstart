@@ -2,7 +2,7 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Jumpstart is a WordPress starter theme based on [Roots](https://github.com/roots/roots/) and several other starter themes.
+Jumpstart is a WordPress starter theme based on [Roots](https://github.com/roots/roots/) and several other starter themes. It basically is a stripped down version of [Roots](https://github.com/roots/roots/) ;)
 
 ## Full stack installation and configuration
 
