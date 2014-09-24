@@ -16,7 +16,7 @@ Jumpstart is a WordPress starter theme based on [Roots](https://github.com/roots
 
 Download the theme and then rename the directory to the name of your theme or website.
 
-Please read the [Roots](https://github.com/roots/roots/) documentation on how to install and configure the theme.
+Please read the [Roots](https://github.com/roots/roots/#theme-development) documentation on how to configure the theme and install dependencies.
 
 ## Available Grunt commands
 
