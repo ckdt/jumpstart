@@ -21,28 +21,13 @@ Install the [Soil](https://github.com/roots/soil) plugin to enable additional fe
 * Cleaner output of `wp_head` and enqueued assets markup
 * Image captions use `<figure>` and `<figcaption>`
 
-## Theme installation
+## Theme installation and configuration
 
 Download the theme and then rename the directory to the name of your theme or website.
 
-## Theme configuration
+Please read the [Roots](https://github.com/roots/roots/) documentation on how to install and configure the theme.
 
-Edit `lib/config.php` to enable or disable theme features and to define a Google Analytics ID.
-
-Edit `lib/init.php` to setup navigation menus, post thumbnail sizes, post formats, and sidebars.
-
-### Install Grunt
-
-**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](http://nodejs.org/download/) before proceeding.
-
-From the command line:
-
-1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
-2. Navigate to the theme directory, then run `npm install`. npm will look at `package.json` and automatically install the necessary dependencies. It will also automatically run `bower install`, which installs front-end packages defined in `bower.json`.
-
-When completed, you'll be able to run the various Grunt commands provided from the command line.
-
-### Available Grunt commands
+## Available Grunt commands
 
 * `grunt dev` — Compile LESS to CSS, concatenate and validate JS
 * `grunt watch` — Compile assets when file changes are made
